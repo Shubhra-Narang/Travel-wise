@@ -87,3 +87,11 @@ body{
     border-radius: 20px;
     background-repeat: no-repeat;
 }
+.place-image3{
+    height: 500px;
+    width: 450px;
+    background: url(Assests/w3.png);
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
