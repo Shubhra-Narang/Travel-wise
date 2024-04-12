@@ -11,7 +11,7 @@
         
         
         body {
-            font-family: Arial, sans-serif;
+            font-family: coda;
             margin: 10px;
             padding: 10px;
             width: 100%;
@@ -42,9 +42,10 @@
         }
         .nav {
             display: flex;
-            gap: 20px;
+            gap: 40px;
         }
         .nav a {
+            margin-top: 30px;
             text-decoration: none;
             color: #666;
             font-weight: bold;
@@ -53,15 +54,33 @@
             color: #000;
         }
         .signin{
-            margin-right: 10px;
+            /* margin-right: 20px;
+            margin-bottom: 20px;
             padding: 10px; 
             background-color: #bfc0c0; 
             color: #fff; 
             border: none;
             border-radius: 20px;
-            font-size: 15px; /* Font size */
-            cursor: pointer; 
+            font-size: 15px;
+            cursor: pointer;  */
+
+            
+            background-color: #c83b3b;
+            color: #ffffff;
+            border: none;
+            margin: 10px;
+            padding: 5px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 10px;
+            cursor: pointer;
+            
+
         }
+        .signin:hover {
+            background-color: #bb2d2d; 
+            
+          }
         .main-content {
             height: 650px;
             display: flex;
@@ -71,10 +90,7 @@
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             padding-left: 50px;
         }
-        .signin:hover {
-            background-color: #bb2d2d; 
-            
-          }
+       
         .content{
             margin: 40px;
         }
@@ -141,8 +157,376 @@
             background-color: #bb2d2d;
             border-radius: 50%;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-            
-            
-           
+              
         }
      
+        body {
+            font-family: coda;
+        }
+        .trips-container {
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #bb2d2d;
+            padding: 50px;
+            border-radius: 10px;
+            width: 772px;
+            height: 473px;
+            
+        }
+        .trips-list {
+            list-style-type: none;
+        }
+        .trip-item {
+            background-color: white;
+            margin-bottom: 5px;
+            padding: 18px 250px;
+            border-radius: 5px;
+            margin: 60px;
+            font-size: 25px;
+
+             
+        }
+        .trips-container img{
+            background-color: #fff;
+            padding: 30px;
+            width: 447px;
+            height: 580px;
+            margin: 50px;
+            border-radius: 15px;
+            padding: 3px;
+           justify-content: 80%;
+           align-items: 80%;
+        }
+        .div2 h1{
+            margin-left: 37%;
+        }
+        .div3 h1{
+            margin-left: 37%;
+        }
+
+        .top_destinations{
+            display: flex;
+            /* background-color: #bb2d2d; */
+            justify-content:space-evenly;
+            margin: 35px;
+        }
+        .one{
+            /* position: absolute;
+            width: 350px;
+            height: 600px;
+            background-color: #bb2d2d;
+            border-radius: 10px; */
+            /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); */
+           
+        }
+        .two{
+            /* margin-left: 33%;
+            position: absolute;
+            width: 350px;
+            height: 600px;
+            background-color: #bb2d2d;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); */
+        }
+        .three{
+            /* margin-left: 66%;
+            position: absolute;
+            width: 350px;
+            height: 600px;
+            background-color: #bb2d2d;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); */
+        }
+       
+        .div4 h1{
+            margin-top: 0px;
+            margin-left: 37%;
+        }
+
+        .testimonials{
+            display: flex;
+            background-color: #bb2d2d;
+            justify-content: space-between;
+            margin: 35px;
+        }
+        .one1{
+            color: #fff;
+            border: none;
+            margin: 10px;
+            padding: 5px 50px;
+            font-size:30px;
+         font-weight: bold;
+            
+            position: absolute;
+            width: 300px;
+            height: 350px;
+            background-color: #bb2d2d;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+           
+        }
+        .two1{
+            color: #fff;
+            border: none;
+            margin: 10px;
+            padding: 5px 50px;
+            font-size:30px;
+         font-weight: bold;
+            
+            /* margin-top: 600px; */
+            margin-left: 33%;
+            position: absolute;
+            width: 300px;
+            height: 350px;
+            background-color: #bb2d2d;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+        .three1{
+            color: #fff;
+            border: none;
+            margin: 10px;
+            padding: 5px 50px;
+            font-size:30px;
+         font-weight: bold;
+            
+            
+            margin-left: 66%;
+            position: absolute;
+            width: 300px;
+            height: 350px;
+            background-color: #bb2d2d;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+        .top_destinations img{
+            box-shadow: 5px 5px 40px gray;
+            z-index: 1;
+            width: 340px; 
+            height: 590px;
+            border-radius: 20px;
+           
+        }
+        .testimonials img{
+            margin-top: 0px;
+            z-index: 1;
+            width: 125px; 
+            height: 125px;
+        }
+        .name{
+            margin-left: 0px;
+            display: flex;
+        }
+        .name p{
+            font-size:23px;
+            font-weight: none;
+        }
+
+
+        /**footer**/
+section {
+    
+    width: 100%;
+    display: inline-block;
+    background: #DD3E3E;
+    height: 50vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.footer-distributed {
+    margin-top: 400px;
+    background: #DD3E3E;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span {
+    color: black;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: black;
+    text-decoration: none;
+    ;
+}
+
+.footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight: 300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+    content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+
+}
+       
+        
+    
+
+        
+        
+    
+
+        
